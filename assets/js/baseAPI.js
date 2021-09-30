@@ -10,6 +10,7 @@ $.ajaxPrefilter(function(options) {
 		options.headers = {
 			Authorization: localStorage.getItem('token') || ''
 		}
+		
 	}
 
 	// 全局挂载complete回调函数
